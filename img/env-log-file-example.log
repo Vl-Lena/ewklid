@@ -1,0 +1,104 @@
+2019/09/10 07:46:11 [debug] 95387#0: *1 http wait request handler
+2019/09/10 07:46:11 [debug] 95387#0: *1 malloc: 0000000000A5A640:1024
+2019/09/10 07:46:11 [debug] 95387#0: *1 recv: eof:0, avail:1
+2019/09/10 07:46:11 [debug] 95387#0: *1 recv: fd:9 94 of 1024
+2019/09/10 07:46:11 [debug] 95387#0: *1 reusable connection: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 posix_memalign: 0000000000A5AA50:4096 @16
+2019/09/10 07:46:11 [debug] 95387#0: *1 http process request line
+2019/09/10 07:46:11 [debug] 95387#0: *1 http request line: "GET /Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png HTTP/1.1"
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'2F:/'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:1 in:'75:u'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'73:s'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'65:e'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'72:r'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'2F:/'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:1 in:'2F:/'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:1 in:'61:a'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'76:v'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'61:a'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'74:t'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'61:a'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'72:r'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'2E:.'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'6A:j'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'70:p'
+2019/09/10 07:46:11 [debug] 95387#0: *1 s:0 in:'67:g'
+2019/09/10 07:46:11 [debug] 95387#0: *1 http uri: "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http args: ""
+2019/09/10 07:46:11 [debug] 95387#0: *1 http exten: "jpg"
+2019/09/10 07:46:11 [debug] 95387#0: *1 posix_memalign: 0000000000A98870:4096 @16
+2019/09/10 07:46:11 [debug] 95387#0: *1 http process request header line
+2019/09/10 07:46:11 [debug] 95387#0: *1 http header: "Host: realty.yandex.ru"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http header: "Accept: */*"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http header done
+2019/09/10 07:46:11 [debug] 95387#0: *1 event timer del: 9: 232885801
+2019/09/10 07:46:11 [debug] 95387#0: *1 rewrite phase: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 test location: "/test.php"
+2019/09/10 07:46:11 [debug] 95387#0: *1 using configuration ""
+2019/09/10 07:46:11 [debug] 95387#0: *1 http cl:-1 max:1048576
+2019/09/10 07:46:11 [debug] 95387#0: *1 rewrite phase: 2
+2019/09/10 07:46:11 [debug] 95387#0: *1 post rewrite phase: 3
+2019/09/10 07:46:11 [debug] 95387#0: *1 generic phase: 4
+2019/09/10 07:46:11 [debug] 95387#0: *1 generic phase: 5
+2019/09/10 07:46:11 [debug] 95387#0: *1 access phase: 6
+2019/09/10 07:46:11 [debug] 95387#0: *1 access phase: 7
+2019/09/10 07:46:11 [debug] 95387#0: *1 post access phase: 8
+2019/09/10 07:46:11 [debug] 95387#0: *1 generic phase: 9
+2019/09/10 07:46:11 [debug] 95387#0: *1 generic phase: 10
+2019/09/10 07:46:11 [debug] 95387#0: *1 content phase: 11
+2019/09/10 07:46:11 [debug] 95387#0: *1 content phase: 12
+2019/09/10 07:46:11 [debug] 95387#0: *1 content phase: 13
+2019/09/10 07:46:11 [debug] 95387#0: *1 http filename: "/tmp/html/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png"
+2019/09/10 07:46:11 [debug] 95387#0: *1 add cleanup: 0000000000A5B770
+2019/09/10 07:46:11 [error] 95387#0: *1 open() "/tmp/html/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png" failed (2: No such file or directory), client: 8.207.163.17, server: realty.yandex.ru, request: "GET /Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png HTTP/1.1", host: "realty.yandex.ru"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http finalize request: 404, "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?" a:1, c:1
+2019/09/10 07:46:11 [debug] 95387#0: *1 http special response: 404, "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http set discard body
+2019/09/10 07:46:11 [debug] 95387#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.16.1
+Date: Tue, 10 Sep 2019 07:46:11 GMT
+Content-Type: text/html
+Content-Length: 153
+Connection: keep-alive
+
+2019/09/10 07:46:11 [debug] 95387#0: *1 write new buf t:1 f:0 0000000000A5B7F0, pos 0000000000A5B7F0, size: 155 file: 0, size: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 http write filter: l:0 f:0 s:155
+2019/09/10 07:46:11 [debug] 95387#0: *1 http output filter "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http copy filter: "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http postpone filter "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?" 0000000000A5B9B8
+2019/09/10 07:46:11 [debug] 95387#0: *1 write old buf t:1 f:0 0000000000A5B7F0, pos 0000000000A5B7F0, size: 155 file: 0, size: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000007F2740, size: 100 file: 0, size: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000007F2000, size: 53 file: 0, size: 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 http write filter: l:1 f:0 s:308
+2019/09/10 07:46:11 [debug] 95387#0: *1 http write filter limit 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 writev: 308 of 308
+2019/09/10 07:46:11 [debug] 95387#0: *1 http write filter 0000000000000000
+2019/09/10 07:46:11 [debug] 95387#0: *1 http copy filter: 0 "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?"
+2019/09/10 07:46:11 [debug] 95387#0: *1 http finalize request: 0, "/Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png?" a:1, c:1
+2019/09/10 07:46:11 [debug] 95387#0: *1 set http keepalive handler
+2019/09/10 07:46:11 [debug] 95387#0: *1 http close request
+2019/09/10 07:46:11 [debug] 95387#0: *1 http log handler
+8.207.163.17 - - [10/Sep/2019:07:46:11 +0000] "GET /Z161gM139/6c0d99Z2pA/0Sjp6qF5IZzVg51ASIVCzENbyWz95o.png HTTP/1.1" 404 153 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
+2019/09/10 07:46:11 [debug] 95387#0: *1 free: 0000000000A5AA50, unused: 88
+2019/09/10 07:46:11 [debug] 95387#0: *1 free: 0000000000A98870, unused: 2832
+2019/09/10 07:46:11 [debug] 95387#0: *1 free: 0000000000A5A640
+2019/09/10 07:46:11 [debug] 95387#0: *1 hc free: 0000000000000000
+2019/09/10 07:46:11 [debug] 95387#0: *1 hc busy: 0000000000000000 0
+2019/09/10 07:46:11 [debug] 95387#0: *1 tcp_nodelay
+2019/09/10 07:46:11 [debug] 95387#0: *1 reusable connection: 1
+2019/09/10 07:46:11 [debug] 95387#0: *1 event timer add: 9: 68000:232893811
+2019/09/10 07:46:11 [debug] 95387#0: timer delta: 10
+2019/09/10 07:46:11 [debug] 95387#0: worker cycle
+2019/09/10 07:46:11 [debug] 95387#0: epoll timer: 68000
+2019/09/10 07:46:12 [debug] 95387#0: epoll: fd:9 ev:2001 d:0000000000A924E0
+2019/09/10 07:46:12 [debug] 95387#0: *1 http keepalive handler
+2019/09/10 07:46:12 [debug] 95387#0: *1 malloc: 0000000000A5A640:1024
+2019/09/10 07:46:12 [debug] 95387#0: *1 recv: eof:1, avail:1
+2019/09/10 07:46:12 [debug] 95387#0: *1 recv: fd:9 0 of 1024
+2019/09/10 07:46:12 [info] 95387#0: *1 client 8.207.163.17 closed keepalive connection
+2019/09/10 07:46:12 [debug] 95387#0: *1 close http connection: 9
+2019/09/10 07:46:12 [debug] 95387#0: *1 event timer del: 9: 232893811
+2019/09/10 07:46:12 [debug] 95387#0: *1 reusable connection: 0
+2019/09/10 07:46:12 [debug] 95387#0: *1 free: 0000000000A5A640
+2019/09/10 07:46:12 [debug] 95387#0: *1 free: 0000000000A63AD0, unused: 136
