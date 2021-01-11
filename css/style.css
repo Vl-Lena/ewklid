@@ -397,28 +397,19 @@ input {
 
 .how-we-work {
     padding-bottom: 90px;
+    min-height: 650px;
 }
 
-/* .how-we-work-block {
-    display: flex;
-} */
-
-/* .how-left {
-    padding-left: 2px;
-    width: 51%;
-} */
-
-/* .how-left-h2 {
-    margin-left: -3px;
-    margin-top: 1px;
-} */
-
-/* .how-steps {
-    display: flex;
-    margin: 44px 0 39px 0px;
-} */
 .how-steps {
     display: flex;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content-active {
+    display: block;
 }
 
 ul.how-steps {
@@ -433,7 +424,14 @@ ul.how-steps {
     font-size: 18px;
     cursor: pointer;
 }
-.how-steps-item:hover, .how-steps-item:focus {
+
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tabs__btn:hover, .tabs__btn:focus, .tabs__btn_active {
     color: var(--orange);
 }
 
@@ -798,6 +796,9 @@ input:last-child {
         width: 100%;
         padding-top: 50px;
     }
+    .how-we-work {
+        min-height: 875px;
+    }
     .how-left {
         flex: 1 1 50%;
     }
@@ -1019,6 +1020,10 @@ input:last-child {
     }
 
         /* How */
+
+    .how-we-work {
+        min-height: unset; 
+    }
 
     .how-steps {
         justify-content: space-between;
@@ -1249,6 +1254,7 @@ input:last-child {
     /* How */
     .how-we-work {
         padding-bottom: 39px;
+        min-height: unset;
     }
     .how-steps>.how-steps-item {
         font-size: 14px;
