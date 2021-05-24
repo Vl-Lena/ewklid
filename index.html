@@ -5,20 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="/fonts/fonts.css" type="text/css">
-    <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize-min.css" type="text/css">
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="fonts/fonts.css" type="text/css">
     <link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css" type="text/css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+    <script defer src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script defer src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="index.min.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="header-menu container">
             <div class="header-logo">
-                <img src="/img/logo.png" class="img-logo"
-                    alt="Логотип на котором нарисован циркуль и есть название: Евклид проектные системы">
+                <picture>
+                    <source srcset="img/logo-min.png">
+                    <img src="img/logo.png" class="img-logo"
+                        alt="Логотип на котором нарисован циркуль и есть название: Евклид проектные системы">
+                </picture>
             </div>
             <div class="header-nav-all">
                 <div id='burger' class="burger" tabindex="0">
@@ -266,7 +275,7 @@
             <div class="footer-nav">
                 <div class="footer-1column">
                     <a href="#">
-                        <img src="/img/logo-white.png" class="img-footer-logo"
+                        <img src="img/logo-white.png" class="img-footer-logo"
                             alt="Логотип на котором нарисован циркуль и есть название: Евклид проектные системы">
                     </a>
                     <ul class="footer-nav-ul">
@@ -323,11 +332,6 @@
             </div>
         </div>
     </footer>
-    <script src="//unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="/index.js"></script>
 </body>
 
 </html>

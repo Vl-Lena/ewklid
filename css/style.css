@@ -178,17 +178,17 @@ input {
     height: 100%;
 }
 .slide_1 {
-    background-image: url(/img/balc.jpg);
+    background-image: url(../img/balc.jpg);
     padding-left: 78px;
     box-sizing: border-box;
 }
 .slide_2 {
-    background-image: url(/img/slide2.png);
+    background-image: url(../img/slide2.jpg);
     padding-left: 78px;
     box-sizing: border-box;
 }
 .slide_3 {
-    background-image: url(/img/slide3.png);
+    background-image: url(../img/slide3.jpg);
     padding-left: 78px;
     box-sizing: border-box;
 }
@@ -311,7 +311,7 @@ input {
     position: relative;
     width: 870px;
     height: 622px;
-    background: url(/img/Rectangle\ 2.jpg);
+    background: url(../img/Rectangle\ 2.jpg);
     background-size: cover;
 }
 .about-block-img::after {
@@ -365,13 +365,13 @@ input {
 
 
 .adv-1 {
-    background: url(/img/Group\ 25.svg);
+    background: url(../img/Group\ 25.svg);
     background-repeat: no-repeat;
     background-position: top 72px left 62px;
 }
 
 .adv-2 {
-    background: url(/img/Group\ 24.svg);
+    background: url(../img/Group\ 24.svg);
     background-repeat: no-repeat;
     background-position: top 54px left 62px;
 }
@@ -489,7 +489,7 @@ ul.how-steps {
 
 .how-right {
     display: block;
-    background: url(/img/Rectangle18.jpg) no-repeat;
+    background: url(../img/Rectangle18.jpg) no-repeat;
     background-size: cover;
     height: 465px;
     width: 870px;
@@ -534,7 +534,7 @@ ul.how-steps {
     background: none;
 }
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
-    background: #D2D2D2 url(/img/+2.svg) no-repeat center;
+    background: #D2D2D2 url(../img/+2.svg) no-repeat center;
 }
 .ui-accordion .ui-accordion-header {
     padding: 40px 0;
@@ -548,7 +548,7 @@ ul.how-steps {
     content: "";
     height: 50px;
     width: 50px;
-    background: rgb(236,236,236) url(/img/+.svg) no-repeat center;
+    background: rgb(236,236,236) url(../img/+.svg) no-repeat center;
     cursor: pointer;
     border-radius: 50%;
     top: 33px;
@@ -613,19 +613,19 @@ ul.how-steps {
     margin: 25px;
 }
 .footer-fb {
-    background: url(/img/fb.svg);
+    background: url(../img/fb.svg);
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
 }
 .footer-vk {
-    background: url(/img/vk.png);
+    background: url(../img/vk.png);
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
 }
 .footer-inst {
-    background: url(/img/instagram.svg);
+    background: url(../img/instagram.svg);
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
@@ -808,7 +808,7 @@ input:last-child {
         width: 80%;
     }
     .how-right {
-        background: url(/img/mobbile-work.jpg) no-repeat;
+        background: url(../img/mobbile-work.jpg) no-repeat;
         background-size: cover;
         height: 689px;
         width: 437px;
@@ -906,7 +906,7 @@ input:last-child {
     }
     .slide_1 {
         padding-left: 45px;
-        background-image: url(/img/mobile-balconies.jpg);
+        background-image: url(../img/mobile-balconies.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -983,7 +983,7 @@ input:last-child {
      }
     
      .slide_1 {
-        background-image: url(/img/mobile2balc.jpg);
+        background-image: url(../img/mobile2balc.jpg);
     }
 
     .slider-conten-h1 {
@@ -1030,7 +1030,7 @@ input:last-child {
     }
 
      .how-right {
-        background: url(/img/Rectangle18.jpg) no-repeat;
+        background: url(../img/Rectangle18.jpg) no-repeat;
         background-size: cover;
         height: 284px;
         width: 668px;
@@ -1264,7 +1264,7 @@ input:last-child {
         padding-bottom: 0;
     }
     .how-right {
-        background-image: url(/img/Rectangle18.jpg);
+        background-image: url(../img/Rectangle18.jpg);
         height: 160px;
         width: 290px;
         margin-bottom: 7px;
